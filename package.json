@@ -2,10 +2,10 @@
   "name": "mongo-drive-backend",
   "version": "1.0.0",
   "description": "Simple file uploader app made with MERN",
-  "main": "app.js",
+  "main": "index.js",
   "scripts": {
-    "start": "node app.js",
-    "dev": "nodemon app.js"
+    "start": "node index.js",
+    "dev": "nodemon index.js"
   },
 
   "repository": {
