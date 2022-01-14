@@ -1,0 +1,34 @@
+{
+  "name": "mongo-drive-backend",
+  "version": "1.0.0",
+  "description": "Simple file uploader app made with MERN",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/atlashackathon/mongo-drive-backend.git"
+  },
+  "author": "JinSSJ3",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/atlashackathon/mongo-drive/issues"
+  },
+  "homepage": "https://github.com/atlashackathon/mongo-drive#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "ejs": "^2.5.7",
+    "express": "^4.16.2",
+    "gridfs-stream": "^1.1.1",
+    "method-override": "^2.3.10",
+    "mongoose": "^5.0.9",
+    "multer": "^1.3.0",
+    "multer-gridfs-storage": "^3.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.17.1"
+  }
+}
