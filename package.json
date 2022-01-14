@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "description": "Simple file uploader app made with MERN",
   "main": "index.js",
+  "engines": {
+    "node": "16.x",
+    "npm": "8.1.2"
+  },
   "scripts": {
     "start": "node index.js",
     "dev": "nodemon index.js"
